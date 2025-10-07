@@ -1,0 +1,570 @@
+[
+  {
+    "id": "prod-001",
+    "title": "Premium Wireless Headphones",
+    "category": "electronics/audio",
+    "price": 12999,
+    "originalPrice": 15999,
+    "currency": "INR",
+    "discountPercentage": 19,
+    "rating": 4.5,
+    "reviewsCount": 342,
+    "stock": 45,
+    "images": [
+      "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=800&q=80",
+      "https://images.unsplash.com/photo-1484704849700-f032a568e944?w=800&q=80"
+    ],
+    "description": "Experience premium sound quality with active noise cancellation, 30-hour battery life, and comfortable over-ear design perfect for music lovers and professionals.",
+    "specs": {
+      "Brand": "AudioTech",
+      "Type": "Over-Ear",
+      "Connectivity": "Bluetooth 5.0",
+      "Battery": "30 hours"
+    },
+    "variants": [
+      { "color": "Black", "size": "Standard", "stock": 25 },
+      { "color": "Silver", "size": "Standard", "stock": 20 }
+    ],
+    "featured": true
+  },
+  {
+    "id": "prod-002",
+    "title": "Smart Fitness Watch",
+    "category": "electronics/wearables",
+    "price": 8999,
+    "originalPrice": 11999,
+    "currency": "INR",
+    "discountPercentage": 25,
+    "rating": 4.3,
+    "reviewsCount": 289,
+    "stock": 67,
+    "images": [
+      "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=800&q=80",
+      "https://images.unsplash.com/photo-1546868871-7041f2a55e12?w=800&q=80"
+    ],
+    "description": "Track your fitness goals with heart rate monitoring, GPS, sleep tracking, and 50+ sport modes. Water-resistant up to 50m.",
+    "specs": {
+      "Brand": "FitPro",
+      "Display": "1.4 inch AMOLED",
+      "Battery": "7 days",
+      "Water Resistance": "5ATM"
+    },
+    "variants": [
+      { "color": "Black", "size": "42mm", "stock": 35 },
+      { "color": "Rose Gold", "size": "42mm", "stock": 32 }
+    ],
+    "featured": true
+  },
+  {
+    "id": "prod-003",
+    "title": "Designer Leather Backpack",
+    "category": "fashion/bags",
+    "price": 4599,
+    "originalPrice": 6999,
+    "currency": "INR",
+    "discountPercentage": 34,
+    "rating": 4.7,
+    "reviewsCount": 156,
+    "stock": 23,
+    "images": [
+      "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=800&q=80",
+      "https://images.unsplash.com/photo-1622560480605-d83c853bc5c3?w=800&q=80"
+    ],
+    "description": "Handcrafted genuine leather backpack with laptop compartment, multiple pockets, and adjustable straps. Perfect for work and travel.",
+    "specs": {
+      "Material": "Genuine Leather",
+      "Capacity": "25L",
+      "Laptop Size": "Up to 15.6 inch",
+      "Dimensions": "45x30x15 cm"
+    },
+    "variants": [
+      { "color": "Brown", "size": "Standard", "stock": 12 },
+      { "color": "Black", "size": "Standard", "stock": 11 }
+    ],
+    "featured": true
+  },
+  {
+    "id": "prod-004",
+    "title": "Men's Casual Cotton Shirt",
+    "category": "fashion/clothing/men",
+    "price": 1299,
+    "originalPrice": 1999,
+    "currency": "INR",
+    "discountPercentage": 35,
+    "rating": 4.2,
+    "reviewsCount": 423,
+    "stock": 89,
+    "images": [
+      "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?w=800&q=80",
+      "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?w=800&q=80"
+    ],
+    "description": "Comfortable 100% cotton casual shirt with regular fit, perfect for everyday wear. Available in multiple colors.",
+    "specs": {
+      "Material": "100% Cotton",
+      "Fit": "Regular",
+      "Sleeve": "Full Sleeve",
+      "Pattern": "Solid"
+    },
+    "variants": [
+      { "color": "Blue", "size": "M", "stock": 25 },
+      { "color": "Blue", "size": "L", "stock": 22 },
+      { "color": "Blue", "size": "XL", "stock": 18 },
+      { "color": "White", "size": "M", "stock": 12 },
+      { "color": "White", "size": "L", "stock": 12 }
+    ],
+    "featured": false
+  },
+  {
+    "id": "prod-005",
+    "title": "Women's Running Shoes",
+    "category": "fashion/footwear/women",
+    "price": 3499,
+    "originalPrice": 4999,
+    "currency": "INR",
+    "discountPercentage": 30,
+    "rating": 4.6,
+    "reviewsCount": 512,
+    "stock": 145,
+    "images": [
+      "https://images.unsplash.com/photo-1460353581641-37baddab0fa2?w=800&q=80",
+      "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=800&q=80"
+    ],
+    "description": "Lightweight running shoes with breathable mesh upper, cushioned sole, and excellent grip. Ideal for running and gym workouts.",
+    "specs": {
+      "Brand": "SportMax",
+      "Material": "Mesh + Rubber",
+      "Type": "Running",
+      "Closure": "Lace-up"
+    },
+    "variants": [
+      { "color": "Pink", "size": "6", "stock": 30 },
+      { "color": "Pink", "size": "7", "stock": 35 },
+      { "color": "Pink", "size": "8", "stock": 40 },
+      { "color": "Black", "size": "6", "stock": 20 },
+      { "color": "Black", "size": "7", "stock": 20 }
+    ],
+    "featured": false
+  },
+  {
+    "id": "prod-006",
+    "title": "Portable Bluetooth Speaker",
+    "category": "electronics/audio",
+    "price": 2499,
+    "originalPrice": 3499,
+    "currency": "INR",
+    "discountPercentage": 29,
+    "rating": 4.4,
+    "reviewsCount": 267,
+    "stock": 78,
+    "images": [
+      "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?w=800&q=80",
+      "https://images.unsplash.com/photo-1589003077984-894e133dabab?w=800&q=80"
+    ],
+    "description": "Compact wireless speaker with 360° sound, 12-hour battery, and IPX7 waterproof rating. Perfect for outdoor adventures.",
+    "specs": {
+      "Battery": "12 hours",
+      "Connectivity": "Bluetooth 5.0",
+      "Water Resistance": "IPX7",
+      "Weight": "450g"
+    },
+    "variants": [
+      { "color": "Blue", "size": "Standard", "stock": 40 },
+      { "color": "Red", "size": "Standard", "stock": 38 }
+    ],
+    "featured": false
+  },
+  {
+    "id": "prod-007",
+    "title": "Stainless Steel Water Bottle",
+    "category": "home/kitchen",
+    "price": 799,
+    "originalPrice": 1299,
+    "currency": "INR",
+    "discountPercentage": 38,
+    "rating": 4.5,
+    "reviewsCount": 892,
+    "stock": 234,
+    "images": [
+      "https://images.unsplash.com/photo-1602143407151-7111542de6e8?w=800&q=80",
+      "https://images.unsplash.com/photo-1584464491033-06628f3a6b7b?w=800&q=80"
+    ],
+    "description": "Double-walled insulated water bottle keeps drinks cold for 24 hours or hot for 12 hours. BPA-free and leak-proof.",
+    "specs": {
+      "Capacity": "1000ml",
+      "Material": "Stainless Steel",
+      "Insulation": "Double-walled",
+      "Features": "Leak-proof, BPA-free"
+    },
+    "variants": [
+      { "color": "Silver", "size": "1L", "stock": 120 },
+      { "color": "Black", "size": "1L", "stock": 114 }
+    ],
+    "featured": false
+  },
+  {
+    "id": "prod-008",
+    "title": "Yoga Mat with Carry Bag",
+    "category": "sports/fitness",
+    "price": 1199,
+    "originalPrice": 1999,
+    "currency": "INR",
+    "discountPercentage": 40,
+    "rating": 4.3,
+    "reviewsCount": 445,
+    "stock": 167,
+    "images": [
+      "https://images.unsplash.com/photo-1601925260368-ae2f83cf8b7f?w=800&q=80",
+      "https://images.unsplash.com/photo-1592432678016-e910b452ca60?w=800&q=80"
+    ],
+    "description": "Premium non-slip yoga mat with excellent cushioning, eco-friendly material, and includes convenient carry bag.",
+    "specs": {
+      "Dimensions": "183x61x0.6 cm",
+      "Material": "TPE (Eco-friendly)",
+      "Thickness": "6mm",
+      "Features": "Non-slip, reversible"
+    },
+    "variants": [
+      { "color": "Purple", "size": "Standard", "stock": 85 },
+      { "color": "Blue", "size": "Standard", "stock": 82 }
+    ],
+    "featured": false
+  },
+  {
+    "id": "prod-009",
+    "title": "Mechanical Gaming Keyboard",
+    "category": "electronics/gaming",
+    "price": 5499,
+    "originalPrice": 7999,
+    "currency": "INR",
+    "discountPercentage": 31,
+    "rating": 4.7,
+    "reviewsCount": 234,
+    "stock": 56,
+    "images": [
+      "https://images.unsplash.com/photo-1595225476474-87563907a212?w=800&q=80",
+      "https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=800&q=80"
+    ],
+    "description": "RGB backlit mechanical keyboard with blue switches, programmable keys, and durable aluminum frame for serious gamers.",
+    "specs": {
+      "Switch Type": "Mechanical Blue",
+      "Backlight": "RGB",
+      "Connection": "USB-C",
+      "Extra": "Programmable keys"
+    },
+    "variants": [
+      { "color": "Black", "size": "Full", "stock": 30 },
+      { "color": "White", "size": "Full", "stock": 26 }
+    ],
+    "featured": false
+  },
+  {
+    "id": "prod-010",
+    "title": "Wireless Gaming Mouse",
+    "category": "electronics/gaming",
+    "price": 3299,
+    "originalPrice": 4599,
+    "currency": "INR",
+    "discountPercentage": 28,
+    "rating": 4.6,
+    "reviewsCount": 378,
+    "stock": 92,
+    "images": [
+      "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?w=800&q=80",
+      "https://images.unsplash.com/photo-1615663245857-ac93bb7c39e7?w=800&q=80"
+    ],
+    "description": "High-precision wireless gaming mouse with 16000 DPI, customizable RGB lighting, and 80-hour battery life.",
+    "specs": {
+      "DPI": "16000",
+      "Battery": "80 hours",
+      "Connectivity": "2.4GHz Wireless",
+      "Buttons": "8 programmable"
+    },
+    "variants": [
+      { "color": "Black", "size": "Standard", "stock": 50 },
+      { "color": "White", "size": "Standard", "stock": 42 }
+    ],
+    "featured": false
+  },
+  {
+    "id": "prod-011",
+    "title": "Minimalist Wall Clock",
+    "category": "home/decor",
+    "price": 1599,
+    "originalPrice": 2499,
+    "currency": "INR",
+    "discountPercentage": 36,
+    "rating": 4.4,
+    "reviewsCount": 178,
+    "stock": 145,
+    "images": [
+      "https://images.unsplash.com/photo-1563861826100-9cb868fdbe1c?w=800&q=80",
+      "https://images.unsplash.com/photo-1595814432314-90095f342694?w=800&q=80"
+    ],
+    "description": "Modern minimalist wall clock with silent movement, perfect for living room, bedroom, or office decoration.",
+    "specs": {
+      "Diameter": "30cm",
+      "Material": "Plastic + Metal",
+      "Movement": "Silent Sweep",
+      "Power": "1 AA Battery"
+    },
+    "variants": [
+      { "color": "White", "size": "30cm", "stock": 75 },
+      { "color": "Black", "size": "30cm", "stock": 70 }
+    ],
+    "featured": false
+  },
+  {
+    "id": "prod-012",
+    "title": "Aromatherapy Diffuser",
+    "category": "home/wellness",
+    "price": 1899,
+    "originalPrice": 2999,
+    "currency": "INR",
+    "discountPercentage": 37,
+    "rating": 4.5,
+    "reviewsCount": 567,
+    "stock": 198,
+    "images": [
+      "https://images.unsplash.com/photo-1608571423902-eed4a5ad8108?w=800&q=80",
+      "https://images.unsplash.com/photo-1585829365295-ab7cd400c167?w=800&q=80"
+    ],
+    "description": "Ultrasonic aromatherapy diffuser with LED color changing lights, auto shut-off, and whisper-quiet operation.",
+    "specs": {
+      "Capacity": "400ml",
+      "Runtime": "8-10 hours",
+      "Features": "LED lights, auto shut-off",
+      "Coverage": "300 sq ft"
+    },
+    "variants": [
+      { "color": "Wood Grain", "size": "400ml", "stock": 100 },
+      { "color": "White", "size": "400ml", "stock": 98 }
+    ],
+    "featured": false
+  },
+  {
+    "id": "prod-013",
+    "title": "Professional Camera Tripod",
+    "category": "electronics/photography",
+    "price": 2799,
+    "originalPrice": 3999,
+    "currency": "INR",
+    "discountPercentage": 30,
+    "rating": 4.6,
+    "reviewsCount": 312,
+    "stock": 67,
+    "images": [
+      "https://images.unsplash.com/photo-1606982958998-69c1b5f07e33?w=800&q=80",
+      "https://images.unsplash.com/photo-1564406462013-b9a9846f2d22?w=800&q=80"
+    ],
+    "description": "Lightweight aluminum tripod with 3-way head, quick release plate, and adjustable height up to 165cm.",
+    "specs": {
+      "Material": "Aluminum",
+      "Max Height": "165cm",
+      "Max Load": "3kg",
+      "Head Type": "3-way"
+    },
+    "variants": [
+      { "color": "Black", "size": "Standard", "stock": 67 }
+    ],
+    "featured": false
+  },
+  {
+    "id": "prod-014",
+    "title": "Cotton Bedsheet Set",
+    "category": "home/bedroom",
+    "price": 2199,
+    "originalPrice": 3499,
+    "currency": "INR",
+    "discountPercentage": 37,
+    "rating": 4.3,
+    "reviewsCount": 689,
+    "stock": 234,
+    "images": [
+      "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?w=800&q=80",
+      "https://images.unsplash.com/photo-1616594039964-ae9021a400a0?w=800&q=80"
+    ],
+    "description": "Premium 100% cotton bedsheet set with 2 pillow covers. Soft, breathable, and machine washable.",
+    "specs": {
+      "Material": "100% Cotton",
+      "Thread Count": "300 TC",
+      "Size": "Queen",
+      "Contents": "1 bedsheet + 2 pillow covers"
+    },
+    "variants": [
+      { "color": "Navy Blue", "size": "Queen", "stock": 80 },
+      { "color": "Grey", "size": "Queen", "stock": 75 },
+      { "color": "White", "size": "Queen", "stock": 79 }
+    ],
+    "featured": false
+  },
+  {
+    "id": "prod-015",
+    "title": "Men's Sports Jacket",
+    "category": "fashion/clothing/men",
+    "price": 2999,
+    "originalPrice": 4999,
+    "currency": "INR",
+    "discountPercentage": 40,
+    "rating": 4.4,
+    "reviewsCount": 234,
+    "stock": 89,
+    "images": [
+      "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=800&q=80",
+      "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=800&q=80"
+    ],
+    "description": "Lightweight windproof sports jacket with hood, zippered pockets, and breathable fabric. Perfect for outdoor activities.",
+    "specs": {
+      "Material": "Polyester",
+      "Features": "Windproof, Water-resistant",
+      "Fit": "Regular",
+      "Season": "All season"
+    },
+    "variants": [
+      { "color": "Black", "size": "M", "stock": 25 },
+      { "color": "Black", "size": "L", "stock": 22 },
+      { "color": "Black", "size": "XL", "stock": 20 },
+      { "color": "Navy", "size": "L", "stock": 22 }
+    ],
+    "featured": false
+  },
+  {
+    "id": "prod-016",
+    "title": "Women's Crossbody Bag",
+    "category": "fashion/bags",
+    "price": 1899,
+    "originalPrice": 2999,
+    "currency": "INR",
+    "discountPercentage": 37,
+    "rating": 4.5,
+    "reviewsCount": 445,
+    "stock": 156,
+    "images": [
+      "https://images.unsplash.com/photo-1591561954557-26941169b49e?w=800&q=80",
+      "https://images.unsplash.com/photo-1584917865442-de89df76afd3?w=800&q=80"
+    ],
+    "description": "Stylish crossbody bag with adjustable strap, multiple compartments, and premium vegan leather finish.",
+    "specs": {
+      "Material": "Vegan Leather",
+      "Dimensions": "25x18x8 cm",
+      "Strap": "Adjustable",
+      "Closure": "Magnetic snap"
+    },
+    "variants": [
+      { "color": "Tan", "size": "Standard", "stock": 80 },
+      { "color": "Black", "size": "Standard", "stock": 76 }
+    ],
+    "featured": false
+  },
+  {
+    "id": "prod-017",
+    "title": "LED Desk Lamp",
+    "category": "home/lighting",
+    "price": 1499,
+    "originalPrice": 2299,
+    "currency": "INR",
+    "discountPercentage": 35,
+    "rating": 4.4,
+    "reviewsCount": 523,
+    "stock": 189,
+    "images": [
+      "https://images.unsplash.com/photo-1576946834581-8b1e97900156?w=800&q=80",
+      "https://images.unsplash.com/photo-1565373679767-3bdcf5e5b9d6?w=800&q=80"
+    ],
+    "description": "Adjustable LED desk lamp with touch control, 3 color modes, 5 brightness levels, and USB charging port.",
+    "specs": {
+      "Light Source": "LED",
+      "Power": "10W",
+      "Features": "Touch control, USB port",
+      "Color Modes": "3 (Warm, Natural, Cool)"
+    },
+    "variants": [
+      { "color": "White", "size": "Standard", "stock": 95 },
+      { "color": "Black", "size": "Standard", "stock": 94 }
+    ],
+    "featured": false
+  },
+  {
+    "id": "prod-018",
+    "title": "Protein Shaker Bottle",
+    "category": "sports/fitness",
+    "price": 399,
+    "originalPrice": 699,
+    "currency": "INR",
+    "discountPercentage": 43,
+    "rating": 4.2,
+    "reviewsCount": 1234,
+    "stock": 456,
+    "images": [
+      "https://images.unsplash.com/photo-1622921227840-5be17e1a6a3b?w=800&q=80",
+      "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=800&q=80"
+    ],
+    "description": "BPA-free protein shaker with mixing ball, leak-proof lid, and measurement markings up to 700ml.",
+    "specs": {
+      "Capacity": "700ml",
+      "Material": "BPA-free Plastic",
+      "Features": "Mixing ball, leak-proof",
+      "Dishwasher Safe": "Yes"
+    },
+    "variants": [
+      { "color": "Black", "size": "700ml", "stock": 230 },
+      { "color": "Blue", "size": "700ml", "stock": 226 }
+    ],
+    "featured": false
+  },
+  {
+    "id": "prod-019",
+    "title": "Ceramic Coffee Mug Set",
+    "category": "home/kitchen",
+    "price": 899,
+    "originalPrice": 1499,
+    "currency": "INR",
+    "discountPercentage": 40,
+    "rating": 4.6,
+    "reviewsCount": 789,
+    "stock": 345,
+    "images": [
+      "https://images.unsplash.com/photo-1514228742587-6b1558fcca3d?w=800&q=80",
+      "https://images.unsplash.com/photo-1517256064527-09c73fc73e38?w=800&q=80"
+    ],
+    "description": "Set of 4 handcrafted ceramic coffee mugs with comfortable handles. Microwave and dishwasher safe.",
+    "specs": {
+      "Material": "Ceramic",
+      "Capacity": "350ml each",
+      "Quantity": "Set of 4",
+      "Care": "Microwave & dishwasher safe"
+    },
+    "variants": [
+      { "color": "Multicolor", "size": "350ml", "stock": 175 },
+      { "color": "White", "size": "350ml", "stock": 170 }
+    ],
+    "featured": false
+  },
+  {
+    "id": "prod-020",
+    "title": "Polarized Sunglasses",
+    "category": "fashion/accessories",
+    "price": 1599,
+    "originalPrice": 2999,
+    "currency": "INR",
+    "discountPercentage": 47,
+    "rating": 4.5,
+    "reviewsCount": 667,
+    "stock": 234,
+    "images": [
+      "https://images.unsplash.com/photo-1572635196237-14b3f281503f?w=800&q=80",
+      "https://images.unsplash.com/photo-1511499767150-a48a237f0083?w=800&q=80"
+    ],
+    "description": "UV400 polarized sunglasses with durable metal frame, reducing glare and eye strain. Includes protective case.",
+    "specs": {
+      "Protection": "UV400",
+      "Lens": "Polarized",
+      "Frame": "Metal",
+      "Includes": "Protective case + cleaning cloth"
+    },
+    "variants": [
+      { "color": "Black", "size": "Standard", "stock": 120 },
+      { "color": "Gold", "size": "Standard", "stock": 114 }
+    ],
+    "featured": false
+  }
+]
