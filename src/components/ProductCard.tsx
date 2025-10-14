@@ -5,6 +5,8 @@ import { Card, CardContent, CardFooter } from './ui/card';
 import { Badge } from './ui/badge';
 import { useCart } from '@/contexts/CartContext';
 import { useWishlist } from '@/contexts/WishlistContext';
+import { useCartAnimation } from '@/hooks/useCartAnimation';
+import { useRef } from 'react';
 
 interface Product {
   id: string;
@@ -25,10 +27,18 @@ interface ProductCardProps {
 export const ProductCard = ({ product }: ProductCardProps) => {
   const { addToCart } = useCart();
   const { addToWishlist, removeFromWishlist, isInWishlist } = useWishlist();
+  const { animateToCart } = useCartAnimation();
+  const imageRef = useRef<HTMLImageElement>(null);
   const inWishlist = isInWishlist(product.id);
 
   const handleAddToCart = (e: React.MouseEvent) => {
     e.preventDefault();
+    
+    // Trigger cart animation
+    if (imageRef.current) {
+      animateToCart(product.images[0], imageRef.current);
+    }
+    
     addToCart({
       id: product.id,
       title: product.title,
@@ -55,27 +65,28 @@ export const ProductCard = ({ product }: ProductCardProps) => {
 
   return (
     <Link to={`/product/${product.id}`}>
-      <Card className="group h-full overflow-hidden card-hover">
-        <div className="relative aspect-square overflow-hidden bg-muted">
+      <Card className="group h-full overflow-hidden card-hover border-border/50">
+        <div className="relative aspect-square overflow-hidden bg-gradient-to-br from-muted to-muted/50">
           <img
+            ref={imageRef}
             src={product.images[0]}
             alt={product.title}
             loading="lazy"
-            className="h-full w-full object-cover transition-transform duration-300 group-hover:scale-110"
+            className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-110"
           />
           {product.discountPercentage && (
-            <Badge className="absolute top-2 left-2 bg-accent">
+            <Badge className="absolute top-2 left-2 gradient-accent font-semibold shadow-lg">
               {product.discountPercentage}% OFF
             </Badge>
           )}
           <Button
             variant="ghost"
             size="icon"
-            className={`absolute top-2 right-2 bg-background/80 hover:bg-background ${inWishlist ? 'text-accent' : ''}`}
+            className={`absolute top-2 right-2 glass-effect hover:bg-background/90 transition-all ${inWishlist ? 'text-accent' : ''}`}
             onClick={handleWishlistToggle}
             aria-label={inWishlist ? 'Remove from wishlist' : 'Add to wishlist'}
           >
-            <Heart className={`h-5 w-5 ${inWishlist ? 'fill-current' : ''}`} />
+            <Heart className={`h-5 w-5 transition-transform hover:scale-110 ${inWishlist ? 'fill-current' : ''}`} />
           </Button>
         </div>
 
@@ -105,7 +116,7 @@ export const ProductCard = ({ product }: ProductCardProps) => {
         <CardFooter className="p-4 pt-0">
           <Button
             variant="accent"
-            className="w-full"
+            className="w-full font-semibold shadow-lg hover:shadow-xl transition-all"
             onClick={handleAddToCart}
             disabled={product.stock === 0}
           >

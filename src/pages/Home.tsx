@@ -11,7 +11,7 @@ export default function Home() {
   const [featuredProducts, setFeaturedProducts] = useState<any[]>([]);
 
   useEffect(() => {
-    const featured = productsData.filter(p => p.featured).slice(0, 4);
+    const featured = productsData.filter(p => p.featured).slice(0, 8);
     setFeaturedProducts(featured);
   }, []);
 
@@ -32,14 +32,14 @@ export default function Home() {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="relative h-[500px] md:h-[600px] overflow-hidden">
+      <section className="relative h-[500px] md:h-[600px] overflow-hidden gradient-mesh">
         <div className="absolute inset-0">
           <img
             src={heroBanner}
             alt="Shop the latest products"
-            className="w-full h-full object-cover"
+            className="w-full h-full object-cover opacity-40"
           />
-          <div className="absolute inset-0 bg-gradient-to-r from-background/90 to-background/40" />
+          <div className="absolute inset-0 bg-gradient-to-r from-background/95 to-background/60" />
         </div>
         
         <div className="relative container mx-auto px-4 h-full flex items-center">

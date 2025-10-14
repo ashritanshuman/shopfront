@@ -36,7 +36,7 @@ export const Header = () => {
   ];
 
   return (
-    <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
+    <header className="sticky top-0 z-50 w-full border-b glass-effect premium-shadow">
       <div className="container mx-auto px-4">
         <div className="flex h-16 items-center justify-between">
           {/* Mobile Menu */}
@@ -116,10 +116,10 @@ export const Header = () => {
             </Button>
 
             <Button variant="ghost" size="icon" asChild className="relative">
-              <Link to="/cart" aria-label="Shopping cart">
+              <Link to="/cart" aria-label="Shopping cart" id="cart-icon">
                 <ShoppingCart className="h-5 w-5" />
                 {itemCount > 0 && (
-                  <Badge className="absolute -top-1 -right-1 h-5 w-5 flex items-center justify-center p-0 text-xs bg-accent">
+                  <Badge className="absolute -top-1 -right-1 h-5 w-5 flex items-center justify-center p-0 text-xs gradient-accent font-semibold">
                     {itemCount}
                   </Badge>
                 )}
