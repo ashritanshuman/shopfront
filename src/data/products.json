@@ -565,6 +565,172 @@
       { "color": "Black", "size": "Standard", "stock": 120 },
       { "color": "Gold", "size": "Standard", "stock": 114 }
     ],
-    "featured": false
+    "featured": true
+  },
+  {
+    "id": "prod-021",
+    "title": "Noise Cancelling Earbuds",
+    "category": "electronics/audio",
+    "price": 6999,
+    "originalPrice": 9999,
+    "currency": "INR",
+    "discountPercentage": 30,
+    "rating": 4.7,
+    "reviewsCount": 892,
+    "stock": 156,
+    "images": [
+      "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?w=800&q=80",
+      "https://images.unsplash.com/photo-1606841837239-c5a1a4a07af7?w=800&q=80"
+    ],
+    "description": "Premium wireless earbuds with active noise cancellation, 25-hour total battery life, and IPX5 water resistance.",
+    "specs": {
+      "Brand": "AudioPro",
+      "Type": "In-Ear",
+      "ANC": "Active Noise Cancellation",
+      "Battery": "25 hours (with case)"
+    },
+    "variants": [
+      { "color": "Black", "size": "Standard", "stock": 80 },
+      { "color": "White", "size": "Standard", "stock": 76 }
+    ],
+    "featured": true
+  },
+  {
+    "id": "prod-022",
+    "title": "4K Action Camera",
+    "category": "electronics/photography",
+    "price": 14999,
+    "originalPrice": 19999,
+    "currency": "INR",
+    "discountPercentage": 25,
+    "rating": 4.6,
+    "reviewsCount": 445,
+    "stock": 67,
+    "images": [
+      "https://images.unsplash.com/photo-1606925797300-0b35e9d1794e?w=800&q=80",
+      "https://images.unsplash.com/photo-1610465299996-30f240ac2b1c?w=800&q=80"
+    ],
+    "description": "Waterproof 4K action camera with image stabilization, 170° wide angle, and includes mounting accessories.",
+    "specs": {
+      "Resolution": "4K 60fps",
+      "Waterproof": "10m without case",
+      "Stabilization": "Electronic",
+      "Battery": "2 hours 4K recording"
+    },
+    "variants": [
+      { "color": "Black", "size": "Standard", "stock": 67 }
+    ],
+    "featured": true
+  },
+  {
+    "id": "prod-023",
+    "title": "Premium Coffee Maker",
+    "category": "home/kitchen",
+    "price": 8999,
+    "originalPrice": 12999,
+    "currency": "INR",
+    "discountPercentage": 31,
+    "rating": 4.8,
+    "reviewsCount": 523,
+    "stock": 89,
+    "images": [
+      "https://images.unsplash.com/photo-1517668808822-9ebb02f2a0e6?w=800&q=80",
+      "https://images.unsplash.com/photo-1585990891595-4b0d0b78c8ae?w=800&q=80"
+    ],
+    "description": "Programmable coffee maker with thermal carafe, brew strength control, and 24-hour timer. Makes perfect coffee every time.",
+    "specs": {
+      "Capacity": "12 cups",
+      "Features": "Programmable, auto shut-off",
+      "Carafe": "Thermal stainless steel",
+      "Power": "1200W"
+    },
+    "variants": [
+      { "color": "Silver", "size": "Standard", "stock": 45 },
+      { "color": "Black", "size": "Standard", "stock": 44 }
+    ],
+    "featured": true
+  },
+  {
+    "id": "prod-024",
+    "title": "Gaming Chair Pro",
+    "category": "home/furniture",
+    "price": 16999,
+    "originalPrice": 24999,
+    "currency": "INR",
+    "discountPercentage": 32,
+    "rating": 4.7,
+    "reviewsCount": 678,
+    "stock": 45,
+    "images": [
+      "https://images.unsplash.com/photo-1598550476439-6847785fcea6?w=800&q=80",
+      "https://images.unsplash.com/photo-1580480055273-228ff5388ef8?w=800&q=80"
+    ],
+    "description": "Ergonomic gaming chair with lumbar support, adjustable armrests, reclining backrest, and premium PU leather.",
+    "specs": {
+      "Material": "PU Leather",
+      "Weight Capacity": "150kg",
+      "Features": "Lumbar support, recline 180°",
+      "Adjustable": "Height, armrests, tilt"
+    },
+    "variants": [
+      { "color": "Black/Red", "size": "Standard", "stock": 25 },
+      { "color": "Black/Blue", "size": "Standard", "stock": 20 }
+    ],
+    "featured": true
+  },
+  {
+    "id": "prod-025",
+    "title": "Smart LED TV 55 inch",
+    "category": "electronics/tv",
+    "price": 39999,
+    "originalPrice": 54999,
+    "currency": "INR",
+    "discountPercentage": 27,
+    "rating": 4.6,
+    "reviewsCount": 1234,
+    "stock": 34,
+    "images": [
+      "https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?w=800&q=80",
+      "https://images.unsplash.com/photo-1601944177325-f8867652837f?w=800&q=80"
+    ],
+    "description": "4K Ultra HD Smart LED TV with HDR, built-in streaming apps, voice control, and stunning picture quality.",
+    "specs": {
+      "Screen Size": "55 inch",
+      "Resolution": "4K UHD 3840x2160",
+      "Smart TV": "Android TV",
+      "HDR": "HDR10, Dolby Vision"
+    },
+    "variants": [
+      { "color": "Black", "size": "55 inch", "stock": 34 }
+    ],
+    "featured": true
+  },
+  {
+    "id": "prod-026",
+    "title": "Electric Kettle Premium",
+    "category": "home/kitchen",
+    "price": 2499,
+    "originalPrice": 3999,
+    "currency": "INR",
+    "discountPercentage": 38,
+    "rating": 4.5,
+    "reviewsCount": 890,
+    "stock": 234,
+    "images": [
+      "https://images.unsplash.com/photo-1563822249366-707a63716077?w=800&q=80",
+      "https://images.unsplash.com/photo-1624300144276-f4c222b70b8c?w=800&q=80"
+    ],
+    "description": "1.7L stainless steel electric kettle with temperature control, keep warm function, and auto shut-off safety.",
+    "specs": {
+      "Capacity": "1.7L",
+      "Material": "Stainless Steel",
+      "Power": "1500W",
+      "Features": "Temperature control, auto shut-off"
+    },
+    "variants": [
+      { "color": "Silver", "size": "1.7L", "stock": 120 },
+      { "color": "Black", "size": "1.7L", "stock": 114 }
+    ],
+    "featured": true
   }
 ]
