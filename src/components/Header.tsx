@@ -67,7 +67,6 @@ export const Header = () => {
 
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2">
-            <div className="gradient-primary h-8 w-8 rounded-lg" />
             <span className="text-xl font-bold hidden sm:inline">ShopHub</span>
           </Link>
 
